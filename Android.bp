@@ -249,15 +249,27 @@ android_app_import {
 }
 
 dex_import {
-	name: "tcmclient",
-	owner: "realme",
-	jars: ["proprietary/framework/tcmclient.jar"],
-}
-
-dex_import {
 	name: "WfdCommon",
 	owner: "realme",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "realme",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connectionaidl-V1-java",
+	owner: "realme",
+	jars: ["proprietary/system/framework/vendor.qti.hardware.data.connectionaidl-V1-java.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.radio.qtiradio-V1-java",
+	owner: "realme",
+	jars: ["proprietary/system/framework/vendor.qti.hardware.radio.qtiradio-V1-java.jar"],
 }
 
 dex_import {
@@ -908,6 +920,13 @@ dex_import {
 	name: "vendor.qti.ims.rcsuce-V1.2-java",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsuceaidlservice-V1-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar"],
 	system_ext_specific: true,
 }
 
