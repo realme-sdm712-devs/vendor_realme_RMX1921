@@ -1562,10 +1562,10 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    PowerOffAlarm \
     DeviceInfo \
     DynamicDDSService \
     ImsRcsService \
+    PowerOffAlarm \
     QtiTelephonyService \
     uceShimService \
     WfdService \
